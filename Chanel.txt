@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHANEL</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      text-align: center;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CHANEL</h1>
+    <p>Элегантность. Роскошь. Стиль.</p>
+  </header>
+
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <section id="about">
+    <h2>О бренде CHANEL</h2>
+    <p>CHANEL — легендарный французский бренд, символ моды и утончённости. Его продукция включает одежду, аксессуары, косметику и парфюмерию.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Галерея</h2>
+    <img src="https://via.placeholder.com/300x200.png?text=Chanel+Bag" alt="Сумка CHANEL">
+    <img src="https://via.placeholder.com/300x200.png?text=Chanel+Perfume" alt="Парфюм CHANEL">
+    <img src="https://via.placeholder.com/300x200.png?text=Chanel+Makeup" alt="Косметика CHANEL">
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Официальный сайт: <a href="https://www.chanel.com" target="_blank">www.chanel.com</a></p>
+    <p>Следите за нами в Instagram: <a href="https://www.instagram.com/chanelofficial/" target="_blank">@chanelofficial</a></p>
+  </section>
+
+  <footer>
+    &copy; 2024 CHANEL. Все права защищены.
+  </footer>
+</body>
+</html>
